@@ -1,0 +1,35 @@
+{
+    "input": {
+        "lat": 37.7104516,
+        "lon": -122.0269068
+    },
+    "results": [
+        {
+            "block_fips": "060014301013018",
+            "bbox": [
+                -122.036349,
+                37.701503,
+                -122.021561,
+                37.718164
+            ],
+            "county_fips": "06001",
+            "county_name": "Alameda",
+            "state_fips": "06",
+            "state_code": "CA",
+            "state_name": "California",
+            "block_pop_2015": 346,
+            "amt": "AMT006",
+            "bea": "BEA163",
+            "bta": "BTA404",
+            "cma": "CMA007",
+            "eag": "EAG006",
+            "ivm": "IVM007",
+            "mea": "MEA043",
+            "mta": "MTA004",
+            "pea": "PEA004",
+            "rea": "REA006",
+            "rpc": "RPC005",
+            "vpc": "VPC006"
+        }
+    ]
+}
