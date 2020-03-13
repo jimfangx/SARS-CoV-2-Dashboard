@@ -25,7 +25,7 @@ div {
     position: relative;
     left: 66.666%;
     /* height: vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .column-center {
@@ -42,6 +42,10 @@ div {
     position: relative;
     bottom: 100%;
     width: 100%;
+    border-top-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
 }
 
 .centered {
@@ -54,9 +58,10 @@ div {
 }
 
 #footer {
-    all:unset;
+    all: unset;
     text-align: center;
 }
+
 /* .twitter-timeline div {
     height: 100% !important;
     width: 100%;
