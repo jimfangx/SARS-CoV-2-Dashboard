@@ -2,40 +2,59 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 div {
     width: 50%;
     height: 50%;
     float: left;
+    /* overflow: hidden; */
 }
 
 .column-left {
     float: left;
-    width: 33.333%;
     /* width: 50%; */
+    width: 33.333%;
+    /* height: 50vh; */
 }
 
 .column-right {
-    float: right;
-    width: 100%;
+    float: left;
+    width: 77%;
     position: relative;
-    left: 100%;
-
+    left: 66.666%;
+    /* height: vh; */
 }
 
 .column-center {
     display: inline-block;
-    /* width: 33.333%; */
-    width: 50%;
+    width: 33.333%;
+    /* width: 50%; */
     position: relative;
-    left: 17%;
+    /* left: 17%; */
+    /* height: 49vh; */
 }
-#pubHealthDept{
-    height: 50.2vh;
+
+#pubHealthDept {
+    height: 50vh;
     position: relative;
     bottom: 100%;
     width: 100%;
+}
+
+.centered {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.heart {
+    color: #e25555;
+}
+
+#footer {
+    all:unset;
+    text-align: center;
 }
 /* .twitter-timeline div {
     height: 100% !important;

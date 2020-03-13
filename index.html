@@ -11,21 +11,13 @@
   <!-- custom scrollbar plugin script -->
   <!-- <script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script> -->
 
-  <script src="index.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-  <!-- <script>
-    (function ($) {
-      $(window).load(function () {
-        /* initialize scrollbar */
-        $("#twitter-widget-holder").mCustomScrollbar({
-          theme: "dark-3",
-          scrollButtons: { enable: true }
-        });
-        /* insert twitter widget js in window load fn */
-        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
-      });
-    })(jQuery);
-  </script> -->
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="index.js"></script>
 
 </head>
 
@@ -46,21 +38,29 @@
       <div class="column-left">
 
         <!-- <iframe src="https://twitter.com/CDCgov" width="100%" height="100%"></iframe> -->
-        <a class="twitter-timeline" data-theme="dark" data-width="100%" data-height="50.2vh"
+        <a class="twitter-timeline" data-theme="dark" data-width="100%" data-height="50vh"
           href="https://twitter.com/CDCgov?ref_src=twsrc%5Etfw">Tweets by
           CDCgov</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
       </div>
       <div class="column-center">
-        <a class="twitter-timeline" data-theme="dark" data-width="100%" data-height="50.2vh" href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">Tweets by
+        <a class="twitter-timeline" data-theme="dark" data-width="100%" data-height="50vh"
+          href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">Tweets by
           WHO</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
-      <div class="column-right div">
-        <iframe src="" width="100%" id="pubHealthDept"></iframe>
+      <div class="column-right">
+        <iframe src="https://www.cdc.gov/coronavirus/" width="100%" id="pubHealthDept"></iframe>
       </div>
     </div>
+  </div>
+
+  <div id="footer">
+    <p class="centered">
+      Made with <span class="heart">❤</span>, jQuery & Materialize CSS in California. | 
+      <a href="./about.html">About</a> | <a href="https://github.com/AirFusion45/SARS-CoV-2-Dashboard">GitHub</a>
+    </p>
   </div>
 </body>
 

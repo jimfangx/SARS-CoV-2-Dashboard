@@ -18,11 +18,10 @@ function showPosition(position, county, state, found) {
   Http.send();
 
   Http.onreadystatechange = (e) => {
-    // console.log(Http.responseText)
     county = String(JSON.parse(Http.response).results[0].county_name).toUpperCase();
     state = String(JSON.parse(Http.response).results[0].state_code).toUpperCase();
-    console.log(county)
-    console.log(state)
+    // console.log(county)
+    // console.log(state)
     $.getJSON("https://raw.githubusercontent.com/AirFusion45/SARS-CoV-2-Dashboard/master/publicHealth.json", function (data) {
       for (var i = 0; i < data.length; i++) {
         if ((data[i].COUNTY === county) && (data[i].STATE === state) && (data[i].NAME.indexOf("PUBLIC HEALTH") != -1)) {
@@ -34,6 +33,3 @@ function showPosition(position, county, state, found) {
     });
   }
 }
-
-// console.log(location)
-
