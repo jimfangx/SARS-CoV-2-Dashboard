@@ -5,21 +5,62 @@
   <meta charset="utf-8">
   <title>SARS-CoV-2 Dashboard</title>
   <link rel="stylesheet" href="style.css">
-  <!-- <script src="index.js"></script> -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <!-- custom scrollbar CSS -->
+  <!-- <link rel="stylesheet" href="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css"> -->
+  <!-- custom scrollbar plugin script -->
+  <!-- <script src="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+  <script src="index.js"></script>
+
+  <!-- <script>
+    (function ($) {
+      $(window).load(function () {
+        /* initialize scrollbar */
+        $("#twitter-widget-holder").mCustomScrollbar({
+          theme: "dark-3",
+          scrollButtons: { enable: true }
+        });
+        /* insert twitter widget js in window load fn */
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+      });
+    })(jQuery);
+  </script> -->
+
 </head>
 
 <body>
   <div id="div1">
-    <iframe src="http://who.maps.arcgis.com/apps/opsdashboard/index.html#/c88e37cfc43b4ed3baf977d77e4a0667" width="100%" height="100%"></iframe>
+    <iframe src="http://who.maps.arcgis.com/apps/opsdashboard/index.html#/c88e37cfc43b4ed3baf977d77e4a0667" width="100%"
+      height="100%"></iframe>
   </div>
   <div id="div2">
     <iframe src="https://hgis.uw.edu/virus/" width="100%" height="100%"></iframe>
   </div>
   <div id="div3">
-    <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" width="100%" height="100%"></iframe>
+    <iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" width="100%"
+      height="100%"></iframe>
   </div>
   <div id="div4">
-    <iframe src="https://covid19info.live/" width="100%" height="100%"></iframe>
+    <div class="container">
+      <div class="column-left">
+
+        <!-- <iframe src="https://twitter.com/CDCgov" width="100%" height="100%"></iframe> -->
+        <a class="twitter-timeline" data-theme="dark" data-width="100%" data-height="50.2vh"
+          href="https://twitter.com/CDCgov?ref_src=twsrc%5Etfw">Tweets by
+          CDCgov</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+      <div class="column-center">
+        <a class="twitter-timeline" data-theme="dark" data-width="100%" data-height="50.2vh" href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">Tweets by
+          WHO</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="column-right div">
+        <iframe src="" width="100%" id="pubHealthDept"></iframe>
+      </div>
+    </div>
   </div>
 </body>
 

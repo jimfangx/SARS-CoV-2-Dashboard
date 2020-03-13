@@ -9,3 +9,46 @@ div {
     height: 50%;
     float: left;
 }
+
+.column-left {
+    float: left;
+    width: 33.333%;
+    /* width: 50%; */
+}
+
+.column-right {
+    float: right;
+    width: 100%;
+    position: relative;
+    left: 100%;
+
+}
+
+.column-center {
+    display: inline-block;
+    /* width: 33.333%; */
+    width: 50%;
+    position: relative;
+    left: 17%;
+}
+#pubHealthDept{
+    height: 50.2vh;
+    position: relative;
+    bottom: 100%;
+    width: 100%;
+}
+/* .twitter-timeline div {
+    height: 100% !important;
+    width: 100%;
+    overflow: scroll !important;
+    overflow: auto;
+} */
+
+/* #twitter-widget-holder {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
+} */
