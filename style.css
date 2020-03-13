@@ -25,6 +25,7 @@ div {
     position: relative;
     left: 66.666%;
     /* height: vh; */
+    overflow: hidden;
 }
 
 .column-center {
