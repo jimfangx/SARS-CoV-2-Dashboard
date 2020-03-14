@@ -26,6 +26,8 @@ function showPosition(position, county, state, found) {
       for (var i = 0; i < data.length; i++) {
         if ((data[i].COUNTY === county) && (data[i].STATE === state) && (data[i].NAME.indexOf("PUBLIC HEALTH") != -1)) {
           console.log(data[i])
+          // document.getElementById("pubHealthDept").src = `https://www.google.com/search?q=%${data[i].WEBSITE}/&btnI=Im+Feeling+Lucky`;
+          // document.getElementById("pubHealthDept").src = `https://www.cracking.com.ar/redir/redir.php?URL=${data[i].WEBSITE}`;
           document.getElementById("pubHealthDept").src = data[i].WEBSITE;
           break;
         }
