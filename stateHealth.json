@@ -592,6 +592,7 @@
         "SDR": "YES"
     },
     "ID": {
+        "HTTPS": true,
         "OBJECTID": 1086,
         "ID": 11617030,
         "NAME": "IDAHO DEPARTMENT OF HEALTH AND WELFARE",
@@ -675,6 +676,7 @@
         "SDR": ""
     },
     "IN": {
+        "HTTPS": true,
         "OBJECTID": 2324,
         "ID": 11617032,
         "NAME": "INDIANA STATE DEPARTMENT OF HEALTH",
@@ -716,6 +718,7 @@
         "SDR": "YES"
     },
     "IA": {
+        "HTTPS": true,
         "OBJECTID": 1080,
         "ID": 11624644,
         "NAME": "IOWA DEPARTMENT OF PUBLIC HEALTH",
@@ -799,6 +802,7 @@
         "SDR": "YES"
     },
     "KY": {
+        "HTTPS": true,
         "OBJECTID": 2313,
         "ID": 11624650,
         "NAME": "KENTUCKY DEPARTMENT FOR PUBLIC HEALTH",
@@ -882,6 +886,7 @@
         "SDR": "YES"
     },
     "ME": {
+        "HTTPS": true,
         "OBJECTID": 3692,
         "ID": 11616752,
         "NAME": "STATE OF MAINE DEPARTMENT OF HEALTH AND HUMAN SERIVCES",
@@ -923,6 +928,7 @@
         "SDR": "YES"
     },
     "MD": {
+        "HTTPS": true,
         "OBJECTID": 3281,
         "ID": 11617026,
         "NAME": "MARYLAND DEPARTMENT OF HEALTH AND MENTAL HYGIENE",
@@ -964,6 +970,7 @@
         "SDR": "YES"
     },
     "MA": {
+        "HTTPS": true,
         "OBJECTID": 3671,
         "ID": 11617029,
         "NAME": "MASSACHUSETTS DEPARTMENT OF PUBLIC HEALTH",
@@ -1005,6 +1012,7 @@
         "SDR": "YES"
     },
     "MI": {
+        "HTTPS": true,
         "OBJECTID": 2309,
         "ID": 11624667,
         "NAME": "MICHIGAN DEPARTMENT OF COMMUNITY HEALTH",
@@ -1046,6 +1054,7 @@
         "SDR": "YES"
     },
     "MN": {
+        "HTTPS": true,
         "OBJECTID": 1108,
         "ID": 11624651,
         "NAME": "MINNESOTA DEPARTMENT OF HEALTH",
@@ -1087,6 +1096,7 @@
         "SDR": "YES"
     },
     "MS": {
+        "HTTPS": true,
         "OBJECTID": 1706,
         "ID": 11624642,
         "NAME": "MISSISSIPPI STATE DEPARTMENT OF HEALTH",
@@ -1128,6 +1138,7 @@
         "SDR": "YES"
     },
     "MO": {
+        "HTTPS": true,
         "OBJECTID": 1104,
         "ID": 11624664,
         "NAME": "MISSOURI DEPARTMENT OF HEALTH AND SENIOR SERVICES",
@@ -1169,6 +1180,7 @@
         "SDR": "YES"
     },
     "MT": {
+        "HTTPS": true,
         "OBJECTID": 1102,
         "ID": 11624640,
         "NAME": "STATE OF MONTANA DEPARTMENT OF HEALTH AND ENVIRONMENTAL SCIENCES",
@@ -1294,6 +1306,7 @@
         "SDR": "YES"
     },
     "NH": {
+        "HTTPS": true,
         "OBJECTID": 3693,
         "ID": 11616760,
         "NAME": "STATE OF NEW HAMPSHIRE DEPARTMENT OF PUBLIC HEALTH",
@@ -1335,6 +1348,7 @@
         "SDR": "YES"
     },
     "NJ": {
+        "HTTPS": true,
         "OBJECTID": 3252,
         "ID": 11613453,
         "NAME": "JERSEY CITY DEPARTMENT OF HEALTH AND HUMAN SERVICES",
@@ -1376,6 +1390,7 @@
         "SDR": "YES"
     },
     "NM": {
+        "HTTPS": true,
         "OBJECTID": 1078,
         "ID": 11624666,
         "NAME": "NEW MEXICO HEALTH AND ENVIRONMENT DEPARTMENT",
@@ -1417,6 +1432,7 @@
         "SDR": "YES"
     },
     "NY": {
+        "HTTPS": true,
         "OBJECTID": 3448,
         "ID": 11624639,
         "NAME": "NEW YORK STATE DEPARTMENT OF HEALTH",
@@ -1458,6 +1474,7 @@
         "SDR": "YES"
     },
     "NC": {
+        "HTTPS": true,
         "OBJECTID": 3187,
         "ID": 11624641,
         "NAME": "NORTH CAROLINA DEPARTMENT OF HEALTH AND HUMAN SERVICES",
@@ -1499,6 +1516,7 @@
         "SDR": "YES"
     },
     "ND": {
+        "HTTPS": true,
         "OBJECTID": 1075,
         "ID": 11624643,
         "NAME": "NORTH DAKOTA STATE DEPARTMENT OF HEALTH",
@@ -1540,6 +1558,7 @@
         "SDR": "YES"
     },
     "OH": {
+        "HTTPS": true,
         "OBJECTID": 2278,
         "ID": 11624636,
         "NAME": "OHIO DEPARTMENT OF HEALTH",
@@ -1581,6 +1600,7 @@
         "SDR": "YES"
     },
     "OK": {
+        "HTTPS": true,
         "OBJECTID": 1077,
         "ID": 11624646,
         "NAME": "OKLAHOMA STATE DEPARTMENT OF HEALTH",
@@ -1622,6 +1642,7 @@
         "SDR": "YES"
     },
     "OR": {
+        "HTTPS": true,
         "OBJECTID": 1076,
         "ID": 11624662,
         "NAME": "OREGON STATE DEPARTMENT OF HEALTH AND HUMAN RESOURCES",
@@ -1667,6 +1688,7 @@
         "WEBSITE": "http://www.palauhealth.org/"
     },
     "PA":{
+        "HTTPS": true,
         "OBJECTID": 3168,
         "ID": 11624637,
         "NAME": "PENNSYLVANIA DEPARTMENT OF HEALTH",
@@ -1712,6 +1734,7 @@
         "WEBSITE": "http://www.salud.gov.pr/Pages/coronavirus.aspx"
     },
     "RI": {
+        "HTTPS": true,
         "OBJECTID": 3544,
         "ID": 11616746,
         "NAME": "RHODE ISLAND DEPARTMENT OF HEALTH",
@@ -1753,6 +1776,7 @@
         "SDR": "YES"
       },
     "SC": {
+        "HTTPS": true,
         "OBJECTID": 23,
         "ID": 11624638,
         "NAME": "SOUTH CAROLINA DEPARTMENT OF HEALTH AND ENVIORMENTAL CONTROL",
@@ -1836,6 +1860,7 @@
         "SDR": "YES"
       },
     "TN": {
+        "HTTPS": true,
         "OBJECTID": 2284,
         "ID": 11624653,
         "NAME": "TENNESSEE DEPARTMENT OF HEALTH",
@@ -1877,6 +1902,7 @@
         "SDR": "YES"
       },
     "TX": {
+        "HTTPS": true,
         "OBJECTID": 861,
         "ID": 11616892,
         "NAME": "TEXAS STATE HEALTH DEPARTMENT",
@@ -1918,6 +1944,7 @@
         "SDR": "YES"
       },
     "UT": {
+        "HTTPS": true,
         "OBJECTID": 1111,
         "ID": 11624661,
         "NAME": "UTAH DEPARTMENT OF HEALTH",
@@ -1959,6 +1986,7 @@
         "SDR": "YES"
       },
     "VT": {
+        "HTTPS": true,
         "OBJECTID": 3422,
         "ID": 11624673,
         "NAME": "VERMONT DEPARTMENT OF HEALTH",
@@ -2000,6 +2028,7 @@
         "SDR": "YES"
       },
     "VI": {
+        "HTTPS": true,
         "OBJECTID": 126,
         "ID": 11616747,
         "NAME": "UNITED STATES VIRGIN ISLANDS DEPARTMENT OF HEALTH",
@@ -2083,6 +2112,7 @@
         "SDR": "YES"
       },
     "WA": {
+        "HTTPS": true,
         "OBJECTID": 1082,
         "ID": 11624655,
         "NAME": "WASHINGTON STATE DEPARTMENT OF HEALTH",
@@ -2124,6 +2154,7 @@
         "SDR": "YES"
       },
     "WV": {
+        "HTTPS": true,
         "OBJECTID": 3420,
         "ID": 11624656,
         "NAME": "WEST VIRGINIA BUREAU FOR PUBLIC HEALTH",
@@ -2165,6 +2196,7 @@
         "SDR": "YES"
       },
     "WI": {
+        "HTTPS": true,
         "OBJECTID": 2286,
         "ID": 11624669,
         "NAME": "WISCONSIN DEPARTMENT OF HEALTH SERVICES",
@@ -2206,6 +2238,7 @@
         "SDR": "YES"
       },
     "WY": {
+        "HTTPS": true,
         "OBJECTID": 980,
         "ID": 11624672,
         "NAME": "WYOMING DEPARTMENT OF HEALTH",
