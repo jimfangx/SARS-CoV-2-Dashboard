@@ -22,11 +22,19 @@
   <!-- <script type="module" src="https://unpkg.com/x-frame-bypass@1.0.2"></script> -->
   <script type="module" src="https://cdn.jsdelivr.net/gh/AirFusion45/SARS-CoV-2-Dashboard/x-frame-bypass.js"></script>
 
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
   <script src="index.js"></script>
 
 </head>
 
 <body>
+
+
+
+
   <div id="div1">
     <iframe src="https://who.maps.arcgis.com/apps/opsdashboard/index.html#/c88e37cfc43b4ed3baf977d77e4a0667"
       width="100%" height="100%"></iframe>
@@ -56,7 +64,8 @@
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       <div class="column-right">
-        <iframe is="x-frame-bypass" src="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" width="100%" id="pubHealthDept"></iframe>
+        <iframe is="x-frame-bypass" src="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" width="100%"
+          id="pubHealthDept"></iframe>
         <!-- https://www.who.int/emergencies/diseases/novel-coronavirus-2019 -->
       </div>
     </div>
@@ -67,6 +76,11 @@
       Made with <span class="heart">❤</span>, jQuery & Materialize CSS in California. |
       <a href="./about.html">About</a> | <a href="https://github.com/AirFusion45/SARS-CoV-2-Dashboard">GitHub</a>
     </p>
+  </div>
+
+  <div id="ex1" class="modal">
+    <p>Thanks for clicking. That felt good.</p>
+    <a href="#" rel="modal:close">Close</a>
   </div>
 </body>
 

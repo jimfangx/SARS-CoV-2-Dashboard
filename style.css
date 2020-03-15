@@ -73,6 +73,14 @@ div {
     text-align: center;
 }
 
+#ex1{
+    text-align: center;
+    left: 37%;
+    overflow-x: hidden;
+    top: 25%;
+    right: 1px;
+    top: 1px;
+}
 /* .twitter-timeline div {
     height: 100% !important;
     width: 100%;
