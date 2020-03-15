@@ -73,14 +73,24 @@ div {
     text-align: center;
 }
 
-#ex1{
+#ex1 {
     text-align: center;
-    left: 37%;
+    /* left: 37%; */
     overflow-x: hidden;
     top: 25%;
-    right: 1px;
-    top: 1px;
+    /* left: 50%; */
+    /* Firefox */
+    left: -moz-calc(50% - 250px);
+    /* WebKit */
+    left: -webkit-calc(50% - 250px);
+    /* Opera */
+    left: -o-calc(50% - 250px);
+    /* Standard */
+    left: calc(50% - 250px);
+    justify-content: center;
+    align-items: center;
 }
+
 /* .twitter-timeline div {
     height: 100% !important;
     width: 100%;
