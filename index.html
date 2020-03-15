@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>SARS-CoV-2 Dashboard</title>
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script> -->
   <!-- custom scrollbar CSS -->
   <!-- <link rel="stylesheet" href="http://malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css"> -->
   <!-- custom scrollbar plugin script -->
@@ -17,14 +18,18 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+  <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+  <!-- <script type="module" src="https://unpkg.com/x-frame-bypass@1.0.2"></script> -->
+  <script type="module" src="./x-frame-bypass.js"></script>
+
   <script src="index.js"></script>
 
 </head>
 
 <body>
   <div id="div1">
-    <iframe src="https://who.maps.arcgis.com/apps/opsdashboard/index.html#/c88e37cfc43b4ed3baf977d77e4a0667" width="100%"
-      height="100%"></iframe>
+    <iframe src="https://who.maps.arcgis.com/apps/opsdashboard/index.html#/c88e37cfc43b4ed3baf977d77e4a0667"
+      width="100%" height="100%"></iframe>
   </div>
   <div id="div2">
     <iframe src="https://hgis.uw.edu/virus/" width="100%" height="100%"></iframe>
@@ -51,14 +56,15 @@
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       <div class="column-right">
-        <iframe src="https://www.cdc.gov/coronavirus/" width="100%" id="pubHealthDept"></iframe>
+        <iframe is="x-frame-bypass" src="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" width="100%" id="pubHealthDept"></iframe>
+        <!-- https://www.who.int/emergencies/diseases/novel-coronavirus-2019 -->
       </div>
     </div>
   </div>
 
   <div id="footer">
     <p class="centered">
-      Made with <span class="heart">❤</span>, jQuery & Materialize CSS in California. | 
+      Made with <span class="heart">❤</span>, jQuery & Materialize CSS in California. |
       <a href="./about.html">About</a> | <a href="https://github.com/AirFusion45/SARS-CoV-2-Dashboard">GitHub</a>
     </p>
   </div>

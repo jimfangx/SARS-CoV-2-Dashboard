@@ -2,6 +2,7 @@ var county;
 var state;
 var found;
 var location;
+var outsideUS;
 
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(showPosition);
@@ -22,6 +23,14 @@ function showPosition(position, county, state, found) {
     state = String(JSON.parse(Http.response).results[0].state_code).toUpperCase();
     console.log(county)
     console.log(state)
+    console.log(Http.response)
+    console.log("JSDFLKFJLK" + JSON.parse(Http.response))
+
+    // debugger
+    // if (String(JSON.parse(Http.response).results === "")) {
+    //   outsideUS = true;
+    //   // document.getElementById("pubHealthDept").src = "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+    // } else {
 
     // $.getJSON("https://raw.githubusercontent.com/AirFusion45/SARS-CoV-2-Dashboard/master/publicHealth.json", function (data) {
     //   for (var i = 0; i < data.length; i++) {
@@ -34,6 +43,35 @@ function showPosition(position, county, state, found) {
     //     }
     //   }
     // });
-    
+
+    $.getJSON("https://raw.githubusercontent.com/AirFusion45/SARS-CoV-2-Dashboard/master/stateHealth.json", function (data) {
+      if (data[state].HTTPS === false) {
+        // notification
+        document.getElementById("pubHealthDept").src = "https://www.cdc.gov/coronavirus/"
+      } else if (data[state].HTTPS === true) {
+        // document.getElementById("pubHealthDept").src = data[state].WEBSITE;
+        // document.getElementById('pubHealthDept').contentWindow.location.reload();
+
+        // const httpFrame = new XMLHttpRequest();
+        // var urlFrame = `https://cors-anywhere.herokuapp.com/${data[state].WEBSITE}`;
+        // httpFrame.open("GET", urlFrame);
+        // httpFrame.send();
+        // httpFrame.onreadystatechange = (err) => {
+        //   console.log(httpFrame.response)
+        // }
+
+        $("#column-right").empty();
+        $("#pubHealthDept").append(`<iframe is="x-frame-bypass" src="${data[state].WEBSITE}"></iframe>`)
+        // document.getElementById('pubHealthDept').contentWindow.location.reload();
+
+        // jQuery.ajaxPrefilter(function (options) {
+        //   if (options.crossDomain && jQuery.support.cors) {
+        //     options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+        //   }
+        // });
+
+      }
+    })
   }
 }
+// }
