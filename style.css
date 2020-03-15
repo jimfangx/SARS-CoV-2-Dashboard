@@ -48,6 +48,17 @@ div {
     border-bottom-width: 0px;
 }
 
+#pubHealthDeptCustom {
+    height: 50vh;
+    position: relative;
+    bottom: 100%;
+    width: 100%;
+    border-top-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+
 .centered {
     text-align: center;
     margin-top: 0px;

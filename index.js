@@ -49,29 +49,9 @@ function showPosition(position, county, state, found) {
         // notification
         document.getElementById("pubHealthDept").src = "https://www.cdc.gov/coronavirus/"
       } else if (data[state].HTTPS === true) {
-        // document.getElementById("pubHealthDept").src = data[state].WEBSITE;
-        // document.getElementById('pubHealthDept').contentWindow.location.reload();
-
-        // const httpFrame = new XMLHttpRequest();
-        // var urlFrame = `https://cors-anywhere.herokuapp.com/${data[state].WEBSITE}`;
-        // httpFrame.open("GET", urlFrame);
-        // httpFrame.send();
-        // httpFrame.onreadystatechange = (err) => {
-        //   console.log(httpFrame.response)
-        // }
-
-        $("#column-right").empty();
-        $("#pubHealthDept").append(`<iframe is="x-frame-bypass" src="${data[state].WEBSITE}"></iframe>`)
-        // document.getElementById('pubHealthDept').contentWindow.location.reload();
-
-        // jQuery.ajaxPrefilter(function (options) {
-        //   if (options.crossDomain && jQuery.support.cors) {
-        //     options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
-        //   }
-        // });
-
+        $("#pubHealthDept").remove();
+        $(".column-right").append(`<iframe id="pubHealthDeptCustom" is="x-frame-bypass" src="${data[state].WEBSITE}"></iframe>`)
       }
     })
   }
 }
-// }
