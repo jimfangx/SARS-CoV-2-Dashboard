@@ -255,7 +255,7 @@
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
         "SDR": "YES",
-        "DASHBOARD": "https://public.tableau.com/views/COVID-19PublicDashboard/Covid-19Public?:embed=y&:display_count=no&:showVizHome=no"
+        "DASHBOARD": "https://covid19.ca.gov/data-and-tools/"
     },
     "CO": {
         "HTTPS": true,
