@@ -36,15 +36,18 @@ function showPosition(position, county, state, found) {
         $("#pubHealthDept").remove();
         $(".column-right").append(`<iframe id="pubHealthDeptCustom" src="https://www.cdc.gov/coronavirus/2019-ncov/index.html"></iframe>`)
         $('#pubHealthDeptCustom:nth-child(2)').remove();
-        $('#iframe1').attr('src', 'https://www.cdc.gov/covid-data-tracker/#cases')
+        $('#iframe1').remove()
+        $('#div1').append(`<iframe src="https://www.cdc.gov/covid-data-tracker/#cases" width="100%" height="100%" id="iframe1"></iframe>`)
       } else if (data[state].HTTPS === true) {
         $("#pubHealthDept").remove();
         $(".column-right").append(`<iframe id="pubHealthDeptCustom" is="x-frame-bypass" src="${data[state].WEBSITE}"></iframe>`)
         $('#pubHealthDeptCustom:nth-child(2)').remove();
         if (data[state].DASHBOARD != "") {
-          $('#iframe1').attr('src', data[state].DASHBOARD)
+          $('#iframe1').remove()
+          $('#div1').append(`<iframe src="${data[state].DASHBOARD}" width="100%" height="100%" id="iframe1"></iframe>`)
         } else {
-          $('#iframe1').attr('src', 'https://www.cdc.gov/covid-data-tracker/#cases')
+          $('#iframe1').remove()
+          $('#div1').append(`<iframe src="https://www.cdc.gov/covid-data-tracker/#cases" width="100%" height="100%" id="iframe1"></iframe>`)
         }
       }
     })
