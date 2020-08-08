@@ -36,10 +36,16 @@ function showPosition(position, county, state, found) {
         $("#pubHealthDept").remove();
         $(".column-right").append(`<iframe id="pubHealthDeptCustom" src="https://www.cdc.gov/coronavirus/2019-ncov/index.html"></iframe>`)
         $('#pubHealthDeptCustom:nth-child(2)').remove();
+        $('#iframe1').attr('src', 'https://www.cdc.gov/covid-data-tracker/#cases')
       } else if (data[state].HTTPS === true) {
         $("#pubHealthDept").remove();
         $(".column-right").append(`<iframe id="pubHealthDeptCustom" is="x-frame-bypass" src="${data[state].WEBSITE}"></iframe>`)
         $('#pubHealthDeptCustom:nth-child(2)').remove();
+        if (data[state].DASHBOARD != "") {
+          $('#iframe1').attr('src', data[state].DASHBOARD)
+        } else {
+          $('#iframe1').attr('src', 'https://www.cdc.gov/covid-data-tracker/#cases')
+        }
       }
     })
   }

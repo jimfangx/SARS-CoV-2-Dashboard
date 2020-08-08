@@ -39,7 +39,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7"
     },
     "AK": {
         "HTTPS": false,
@@ -81,7 +82,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus-response-alaska-dhss.hub.arcgis.com/"
     },
     "AS": {
         "HTTPS": true,
@@ -123,7 +125,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "AZ": {
         "HTTPS": true,
@@ -165,7 +168,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home"
     },
     "AR": {
         "HTTPS": true,
@@ -207,7 +211,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/f533ac8a8b6040e5896b05b47b17a647"
     },
     "CA": {
         "HTTPS": true,
@@ -249,7 +254,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://public.tableau.com/views/COVID-19PublicDashboard/Covid-19Public?:embed=y&:display_count=no&:showVizHome=no"
     },
     "CO": {
         "HTTPS": true,
@@ -291,7 +297,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD":  "https://covid19.colorado.gov/case-data"
     },
     "CT": {
         "HTTPS": true,
@@ -333,7 +340,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "DE": {
         "HTTPS": true,
@@ -375,7 +383,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus.delaware.gov/"
     },
     "DC": {
         "HTTPS": true,
@@ -417,11 +426,13 @@
         "GOVT_LEVEL": "LOCAL",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": ""
+        "SDR": "",
+        "DASHBOARD": ""
     },
     "FM": {
         "HTTPS": true,
-        "WEBSITE": "https://www.fsmgov.org/index.html"
+        "WEBSITE": "https://www.fsmgov.org/index.html",
+        "DASHBOARD": ""
     },
     "FL": {
         "HTTPS": false,
@@ -463,7 +474,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429"
     },
     "GA": {
         "HTTPS": true,
@@ -498,14 +510,15 @@
         "GEOPREC": "ONENTITY",
         "PHONELOC": "YES",
         "QC_QA": "TECHNIGRAPHICS",
-        "WEBSITE": "https://dph.georgia.gov/novelcoronavirus",
+        "WEBSITE": "https://dph.georgia.gov/covid-19-daily-status-report",
         "FCODE": 80028,
         "GNIS_ID": "",
         "SOURCE": "TECHNIGRAPHICS",
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "GU": {
         "HTTPS": true,
@@ -547,7 +560,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "HI": {
         "HTTPS": true,
@@ -589,7 +603,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "ID": {
         "HTTPS": true,
@@ -631,7 +646,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/DPHCOVID19Dashboard2"
     },
     "IL": {
         "HTTPS": false,
@@ -673,7 +689,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": ""
+        "SDR": "",
+        "DASHBOARD": ""
     },
     "IN": {
         "HTTPS": true,
@@ -715,7 +732,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus.in.gov/"
     },
     "IA": {
         "HTTPS": true,
@@ -757,7 +775,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus.iowa.gov/"
     },
     "KS": {
         "HTTPS": false,
@@ -799,7 +818,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://kdhe.maps.arcgis.com/apps/opsdashboard/index.html#/05f4169dc6394aa98895072b94734134"
     },
     "KY": {
         "HTTPS": true,
@@ -841,7 +861,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "LA": {
         "HTTPS": false,
@@ -883,7 +904,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "http://ldh.la.gov/Coronavirus/"
     },
     "ME": {
         "HTTPS": true,
@@ -925,7 +947,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "MD": {
         "HTTPS": true,
@@ -967,7 +990,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus.maryland.gov/"
     },
     "MA": {
         "HTTPS": true,
@@ -1009,7 +1033,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "MI": {
         "HTTPS": true,
@@ -1051,7 +1076,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html"
     },
     "MN": {
         "HTTPS": true,
@@ -1093,7 +1119,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://mndps.maps.arcgis.com/apps/opsdashboard/index.html#/f28f84968c1148129932c3bebb1d3a1a"
     },
     "MS": {
         "HTTPS": true,
@@ -1135,7 +1162,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "MO": {
         "HTTPS": true,
@@ -1177,7 +1205,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php"
     },
     "MT": {
         "HTTPS": true,
@@ -1219,7 +1248,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b"
     },
     "NE": {
         "HTTPS": false,
@@ -1261,7 +1291,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://nebraska.maps.arcgis.com/apps/opsdashboard/index.html#/4213f719a45647bc873ffb58783ffef3"
     },
     "NV": {
         "HTTPS": false,
@@ -1303,7 +1334,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9"
     },
     "NH": {
         "HTTPS": true,
@@ -1345,7 +1377,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "NJ": {
         "HTTPS": true,
@@ -1387,7 +1420,8 @@
         "GOVT_LEVEL": "LOCAL",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://covid19.nj.gov/#live-updates"
     },
     "NM": {
         "HTTPS": true,
@@ -1429,7 +1463,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "NY": {
         "HTTPS": true,
@@ -1471,7 +1506,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://forward.ny.gov/percentage-positive-results-region-dashboard"
     },
     "NC": {
         "HTTPS": true,
@@ -1513,7 +1549,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://www.ncdhhs.gov/divisions/public-health/covid19/covid-19-nc-case-count"
     },
     "ND": {
         "HTTPS": true,
@@ -1555,7 +1592,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases"
     },
     "OH": {
         "HTTPS": true,
@@ -1597,7 +1635,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home/dashboard"
     },
     "OK": {
         "HTTPS": true,
@@ -1639,7 +1678,8 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": ""
     },
     "OR": {
         "HTTPS": true,
@@ -1681,13 +1721,15 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
+        "SDR": "YES",
+        "DASHBOARD": "https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonHealthAuthorityCOVID-19DataDashboard/COVID-19EPIConfirmed?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false"
     },
     "PW": {
         "HTTPS": false,
-        "WEBSITE": "http://www.palauhealth.org/"
+        "WEBSITE": "http://www.palauhealth.org/",
+        "DASHBOARD": ""
     },
-    "PA":{
+    "PA": {
         "HTTPS": true,
         "OBJECTID": 3168,
         "ID": 11624637,
@@ -1727,11 +1769,13 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "PR": {
         "HTTPS": false,
-        "WEBSITE": "http://www.salud.gov.pr/Pages/coronavirus.aspx"
+        "WEBSITE": "http://www.salud.gov.pr/Pages/coronavirus.aspx",
+        "DASHBOARD": ""
     },
     "RI": {
         "HTTPS": true,
@@ -1773,8 +1817,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "SC": {
         "HTTPS": true,
         "OBJECTID": 23,
@@ -1815,8 +1860,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": "https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19"
+    },
     "SD": {
         "HTTPS": false,
         "OBJECTID": 1110,
@@ -1857,8 +1903,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "TN": {
         "HTTPS": true,
         "OBJECTID": 2284,
@@ -1899,8 +1946,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "TX": {
         "HTTPS": true,
         "OBJECTID": 861,
@@ -1941,8 +1989,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": "https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83"
+    },
     "UT": {
         "HTTPS": true,
         "OBJECTID": 1111,
@@ -1983,8 +2032,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": "https://coronavirus.utah.gov/case-counts/"
+    },
     "VT": {
         "HTTPS": true,
         "OBJECTID": 3422,
@@ -2018,15 +2068,16 @@
         "GEOPREC": "ONENTITY",
         "PHONELOC": "YES",
         "QC_QA": "TECHNIGRAPHICS",
-        "WEBSITE": "https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus",
+        "WEBSITE": "https://www.healthvermont.gov/response/coronavirus-covid-19",
         "FCODE": 80028,
         "GNIS_ID": "",
         "SOURCE": "TECHNIGRAPHICS",
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "VI": {
         "HTTPS": true,
         "OBJECTID": 126,
@@ -2067,8 +2118,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "VA": {
         "HTTPS": false,
         "OBJECTID": 3188,
@@ -2102,15 +2154,16 @@
         "GEOPREC": "ONENTITY",
         "PHONELOC": "YES",
         "QC_QA": "TECHNIGRAPHICS",
-        "WEBSITE": "http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/",
+        "WEBSITE": "https://www.vdh.virginia.gov/coronavirus/",
         "FCODE": 80028,
         "GNIS_ID": "",
         "SOURCE": "TECHNIGRAPHICS",
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": "http://www.vdh.virginia.gov/coronavirus/"
+    },
     "WA": {
         "HTTPS": true,
         "OBJECTID": 1082,
@@ -2151,8 +2204,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": "https://www.doh.wa.gov/Emergencies/Coronavirus"
+    },
     "WV": {
         "HTTPS": true,
         "OBJECTID": 3420,
@@ -2193,8 +2247,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": "https://dhhr.wv.gov/COVID-19/Pages/default.aspx"
+    },
     "WI": {
         "HTTPS": true,
         "OBJECTID": 2286,
@@ -2235,8 +2290,9 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      },
+        "SDR": "YES",
+        "DASHBOARD": ""
+    },
     "WY": {
         "HTTPS": true,
         "OBJECTID": 980,
@@ -2277,6 +2333,7 @@
         "GOVT_LEVEL": "STATE",
         "TOT_STAFF": 0,
         "SPEC_EQUIP": "",
-        "SDR": "YES"
-      }
+        "SDR": "YES",
+        "DASHBOARD": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/"
+    }
 }
