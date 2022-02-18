@@ -1,7 +1,7 @@
 # SARS-CoV-2-Dashboard
-The SARS-CoV-2-Dashboard is an aggregation website that combines multiple COVID19 Dashboards into 1 website, creating an "status console" like website for monitoring the progress of the 2019-2020 SARS CoV 2 pandemic.
+The SARS-CoV-2-Dashboard is an aggregation website that combines multiple COVID19 Dashboards into 1 website, creating an "status console"/mission control like website for monitoring the progress of the 2019-2020 SARS CoV 2 pandemic.
 
-The implemented version of this program can be found [here](https://covid19.rocketscience.monster).
+This project is no longer maintained. The live version was hosted [here](https://covid19.rocketscience.monster) previously. The project is not mobile friendly due to the large amount of information.
 
 # Breakdown of Website & Implementation
 1. Iframes for 2 of the dashboards (bottom left & top right)
@@ -38,5 +38,5 @@ This projecet is licensed under MIT License - See the LICENSE.md file for more d
 If you find any bugs, license issues, missing credits, etc. Feel free to contact me by email or Discord!
 
 * Please contact me here:
-    * Email: jfang.cv.ca.us@gmail.com OR jim@jimfang.me
+    * Email: jfang.cv.ca.us@gmail.com
     * Discord: AirFusion#1706
