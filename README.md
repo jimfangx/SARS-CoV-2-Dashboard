@@ -1,4 +1,7 @@
 # SARS-CoV-2-Dashboard
+
+![Screenshot of Dashboard in March 2020](https://cdn.discordapp.com/attachments/672631281951178752/688863116775391235/unknown.png "SARS-CoV-2-Dashboard in March 2020")
+
 The SARS-CoV-2-Dashboard is an aggregation website that combines multiple COVID19 Dashboards into 1 website, creating an "status console"/mission control like website for monitoring the progress of the 2019-2020 SARS CoV 2 pandemic.
 
 This project is no longer maintained. The live version was hosted [here](https://covid19.rocketscience.monster) previously. The project is not mobile friendly due to the large amount of information.
